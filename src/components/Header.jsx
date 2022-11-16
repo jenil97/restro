@@ -94,7 +94,7 @@ const Header = () => {
           {/* logo */}
           <motion.div
             variants={fadeIn("down", "tween", 1.2, 1.4)}
-            className="order-1 lg:order-none"
+            className="order-1 lg:order-none lg:ml-[8rem]"
           >
             <a href="/">
               {/* if header is active make logo 90 x 90 px else 107 x 107px */}
