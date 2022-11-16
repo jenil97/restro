@@ -14,7 +14,7 @@ const Hero = () => {
           variants={staggerContainer(0.3, 1)}
           initial="hidden"
           whileInView={"show"}
-          className="text-center flex flex-col items-center"
+          className="text-center flex flex-col items-center mt-[10rem]"
         >
           {/* pretitle */}
           <motion.div
