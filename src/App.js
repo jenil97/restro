@@ -1,9 +1,10 @@
 import React from "react";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className="text-3xl text-center font-bold">
-    Hello world !
+    <div className="h-full bg-pattern bg-repeat max-w-[1800px] mx-auto overflow-hidden">
+      <Hero />
     </div>
   );
 }
