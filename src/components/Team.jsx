@@ -18,8 +18,8 @@ const Team = () => {
             whileInView={"show"}
             className="flex-1 text-center lg:text-left lg:pt-16"
           >
-            <h2 className="h2 capitalize">meet our chef</h2>
-            <p className="font-primary">
+            <h2 className="h2 capitalize cursor-default">meet our chef</h2>
+            <p className="font-primary cursor-default">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis adipisci repudiandae enim ratione corrupti voluptatum
               suscipit distinctio dolor. Sequi exercitationem quae deserunt
@@ -28,10 +28,10 @@ const Team = () => {
               perspiciatis voluptas consequuntur.
             </p>
             <div className="my-[26px]">
-              <div className="text-2xl capitalize font-bold text-accent font-primary">
+              <div className="text-2xl capitalize font-bold text-accent font-primary cursor-default">
                 peter senchez
               </div>
-              <div className="text-[15px] font-bold capitalize text-grey/70 font-primary">
+              <div className="text-[15px] font-bold capitalize text-grey/70 font-primary cursor-default">
                 executive chef
               </div>
             </div>
