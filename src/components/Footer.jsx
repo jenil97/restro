@@ -30,21 +30,21 @@ const Footer = () => {
           >
             {/* contact */}
             <div className="flex-1 lg:max-w-[170px]">
-              <div className="capitalize text-[20px] lg:text-[22px] font-normal text-white font-primary mb-[22px] mt-4 lg:-mt-1 lg:text-start text-center">
+              <div className="capitalize text-[20px] lg:text-[22px] font-normal text-white font-primary mb-[22px] mt-4 lg:-mt-1 lg:text-start text-center cursor-default">
                 {contact.title}
               </div>
-              <div className="capitalize">{contact.address}</div>
-              <div className="capitalize">{contact.phone}</div>
+              <div className="capitalize cursor-default">{contact.address}</div>
+              <div className="capitalize cursor-default">{contact.phone}</div>
             </div>
             {/* program */}
-            <div className="flex-1">
+            <div className="flex-1 cursor-default">
               <div className="capitalize text-[20px] lg:text-[22px] font-normal text-white font-primary mb-[22px] lg:text-start text-center">
                 {hours.title}
               </div>
               <div className="flex gap-x-[46px]">
                 {hours.program.map((item, index) => {
                   return (
-                    <div className="capitalize" key={index}>
+                    <div className="capitalize cursor-default" key={index}>
                       <div>
                         <div>{item.days}</div>
                         <div className="text-[20px] text-accent">
@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
             {/* social */}
             <div className="flex-1 lg:max-w-[280px] mb-12">
-              <div className="capitalize text-[20px] lg:text-[22px] font-normal text-white font-primary mb-[22px] lg:text-start text-center">
+              <div className="capitalize text-[20px] lg:text-[22px] font-normal text-white font-primary mb-[22px] lg:text-start text-center cursor-default">
                 {social.title}
               </div>
               <div className="ml-16 lg:-ml-16">

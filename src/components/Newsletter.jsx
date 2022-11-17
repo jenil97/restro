@@ -8,10 +8,10 @@ const Newsletter = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center h-full">
         {/* title & subtitle */}
         <div className="text-center lg:text-left mb-4">
-          <h3 className="text-[26px] font-primary italic text-white capitalize mb-2">
+          <h3 className="text-[26px] font-primary italic text-white capitalize mb-2 cursor-default">
             {title}
           </h3>
-          <p>{subtitle}</p>
+          <p className="cursor-default">{subtitle}</p>
         </div>
         {/* form */}
         <form className="flex flex-col lg:flex-row lg:gap-x-[10px] gap-y-4">
