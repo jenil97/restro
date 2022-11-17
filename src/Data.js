@@ -8,6 +8,8 @@ import Avatar1 from "../src/assets/testimonial/avatar1.png";
 import Avatar2 from "../src/assets/testimonial/avatar2.png";
 import Avatar3 from "../src/assets/testimonial/avatar3.png";
 
+import ModelBlackImg from "./assets/model-black.png";
+
 export const menuData = {
   menuItems: [
     {
@@ -61,4 +63,12 @@ export const testimonialData = {
       name: "Henry A.",
     },
   ],
+};
+
+export const BookingData = {
+  title: "book the table",
+  subtitle:
+    "Call on (800) 123-4567  from 5AM - 11PM daily, Reservation is required for parties , event  & 6 or more person.",
+  modelImg: ModelBlackImg,
+  btnText: "Book",
 };
