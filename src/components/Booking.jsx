@@ -29,14 +29,14 @@ const Booking = () => {
           {/* title */}
           <motion.h2
             variants={fadeIn("up", "tween", 0.2, 1.6)}
-            className="h2 capitalize"
+            className="h2 capitalize cursor-default"
           >
             {title}
           </motion.h2>
           {/* subtitle */}
           <motion.p
             variants={fadeIn("up", "tween", 0.4, 1.6)}
-            className="mb-8 text-dark"
+            className="mb-8 text-dark cursor-default"
           >
             {subtitle}
           </motion.p>
@@ -57,7 +57,7 @@ const Booking = () => {
           <div className="flex flex-col lg:flex-row gap-y-4 items-center justify-between mb-8">
             {/* datepicker */}
             <div>
-              <div className="flex justify-center lg:justify-start items-center gap-x-[10px] font-semibold text-dark text-base mb-3">
+              <div className="flex justify-center lg:justify-start items-center gap-x-[10px] font-semibold text-dark text-base mb-3 cursor-default">
                 <FaCalendar />
                 <div>Choose Date</div>
               </div>
@@ -69,7 +69,7 @@ const Booking = () => {
             </div>
             {/* timepicker */}
             <div>
-              <div className="flex justify-center lg:justify-start items-center gap-x-[10px] font-semibold text-dark text-base mb-3">
+              <div className="flex justify-center lg:justify-start items-center gap-x-[10px] font-semibold text-dark text-base mb-3 cursor-default">
                 <FaClock />
                 <div>Choose Time</div>
               </div>
@@ -83,7 +83,7 @@ const Booking = () => {
             </div>
             {/* person number */}
             <div>
-              <div className="flex justify-center lg:justify-start items-center gap-x-[10px] font-semibold text-dark text-base mb-3">
+              <div className="flex justify-center lg:justify-start items-center gap-x-[10px] font-semibold text-dark text-base mb-3 cursor-default">
                 <FaUsers />
                 <div>How many people?</div>
               </div>
@@ -92,9 +92,7 @@ const Booking = () => {
           </div>
           {/* button */}
           <div className="max-w-[316px] mx-auto flex justify-center">
-            <button className="btn capitalize w-full lg:w-48">
-              {btnText}
-            </button>
+            <button className="btn capitalize w-full lg:w-48">{btnText}</button>
           </div>
         </motion.form>
       </div>
