@@ -46,7 +46,7 @@ const Team = () => {
             whileInView={"show"}
             className="flex-1"
           >
-            <img src={chefImg} alt="" width={350} />
+            <img src={chefImg} alt="" width={360} />
           </motion.div>
         </div>
       </div>
